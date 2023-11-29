@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <div 
     >
-     <Section title = "Statistics" ><Statistics/></Section>
+     <Section title="Statistics" ><Statistics/></Section>
      <Section title='Please leave feedback'><Feedback/></Section>
     </div>
   );

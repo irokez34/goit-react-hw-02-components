@@ -11,8 +11,6 @@ class Statistics extends React.Component {
   
   render() {
     return (<div className='statistic'>
-    
-    
     <ul className='state-list-result'>
         <li className='state-result-item'>Good: {this.state.good}</li>
         <li className='state-result-item'>Neutre: {this.state.neutral}</li>
