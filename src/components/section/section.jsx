@@ -1,4 +1,4 @@
-
+import './section.css'
 
 const Section = ({title,children}) => 
 {
