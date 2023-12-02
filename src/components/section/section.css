@@ -4,3 +4,9 @@
   flex-direction: column;
   gap: 15px;
 }
+.section-container 
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
