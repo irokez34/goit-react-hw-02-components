@@ -1,7 +1,7 @@
 import Statistics from './statistics/Statistics';
 import FeedbackOptions from './feedback/FeedbackOptions';
 import Section from './section/section';
-import NotificationMessage from './notification-message/notification';
+
 import React from 'react';
 export class App extends React.Component {
   state = {
@@ -44,9 +44,6 @@ export class App extends React.Component {
           ></FeedbackOptions>
         </Section>
         <Section title="Statistics">
-        {this.state.showNotification && (
-            <NotificationMessage message={'There is no feedback'} />
-          )}
           <Statistics
             good={this.state.good}
             neutral={this.state.neutral}
